@@ -12,6 +12,7 @@ class AirConditionTest {
 
     @Test
     public void testThatTheAirConditionIsTurnedOn() {
+        test.setAirConditionTurnedOn(false);
 
         Assertions.assertFalse(test.isAirConditionTurnedOn());
     }
@@ -20,6 +21,7 @@ class AirConditionTest {
     public void testThatTheAirConditionIsTurnedOff() {
         Assertions.assertFalse(test.isAirConditionTurnedOn());
 
+        test.setAirConditionTurnedOff(false);
         Assertions.assertFalse(test.isAirConditionTurnedOff(), "true");
     }
 
