@@ -1,6 +1,5 @@
 package bike;
 
-import bike.Bike;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
